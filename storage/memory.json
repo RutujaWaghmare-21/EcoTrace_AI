@@ -1,0 +1,887 @@
+{
+  "suppliers": {
+    "Supplier A": {
+      "supplier": "Supplier A",
+      "country": "India",
+      "transport": "Air",
+      "distance_km": 6500.0,
+      "material": "Coffee Beans",
+      "weight_tonnes": 2.5,
+      "certifications": [
+        "Fairtrade"
+      ],
+      "renewable_energy_pct": 30.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.699848+00:00"
+    },
+    "Supplier B": {
+      "supplier": "Supplier B",
+      "country": "Vietnam",
+      "transport": "Sea",
+      "distance_km": 11000.0,
+      "material": "Textiles",
+      "weight_tonnes": 8.0,
+      "certifications": [
+        "ISO14001",
+        "Organic"
+      ],
+      "renewable_energy_pct": 55.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.701185+00:00"
+    },
+    "Supplier C": {
+      "supplier": "Supplier C",
+      "country": "Mexico",
+      "transport": "Road",
+      "distance_km": 1800.0,
+      "material": "Electronics",
+      "weight_tonnes": 3.2,
+      "certifications": NaN,
+      "renewable_energy_pct": 10.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.702059+00:00"
+    },
+    "Supplier D": {
+      "supplier": "Supplier D",
+      "country": "Brazil",
+      "transport": "Air",
+      "distance_km": 9200.0,
+      "material": "Cocoa",
+      "weight_tonnes": 4.0,
+      "certifications": [
+        "Rainforest Alliance"
+      ],
+      "renewable_energy_pct": 20.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.703137+00:00"
+    },
+    "Supplier E": {
+      "supplier": "Supplier E",
+      "country": "Germany",
+      "transport": "Rail",
+      "distance_km": 950.0,
+      "material": "Steel",
+      "weight_tonnes": 12.0,
+      "certifications": [
+        "ISO14001"
+      ],
+      "renewable_energy_pct": 70.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.704009+00:00"
+    },
+    "Supplier F": {
+      "supplier": "Supplier F",
+      "country": "China",
+      "transport": "Sea",
+      "distance_km": 8700.0,
+      "material": "Electronics",
+      "weight_tonnes": 6.5,
+      "certifications": [
+        "B Corp"
+      ],
+      "renewable_energy_pct": 40.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.704995+00:00"
+    },
+    "Supplier G": {
+      "supplier": "Supplier G",
+      "country": "USA",
+      "transport": "Road",
+      "distance_km": 600.0,
+      "material": "Plastic",
+      "weight_tonnes": 5.0,
+      "certifications": NaN,
+      "renewable_energy_pct": 15.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.706351+00:00"
+    },
+    "Supplier H": {
+      "supplier": "Supplier H",
+      "country": "Kenya",
+      "transport": "Air",
+      "distance_km": 7400.0,
+      "material": "Coffee Beans",
+      "weight_tonnes": 1.8,
+      "certifications": [
+        "Fairtrade",
+        "Organic"
+      ],
+      "renewable_energy_pct": 25.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.707211+00:00"
+    },
+    "Supplier I": {
+      "supplier": "Supplier I",
+      "country": "Indonesia",
+      "transport": "Sea",
+      "distance_km": 10200.0,
+      "material": "Cotton",
+      "weight_tonnes": 9.5,
+      "certifications": [
+        "Organic"
+      ],
+      "renewable_energy_pct": 35.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.708301+00:00"
+    },
+    "Supplier J": {
+      "supplier": "Supplier J",
+      "country": "Bangladesh",
+      "transport": "Air",
+      "distance_km": 8100.0,
+      "material": "Textiles",
+      "weight_tonnes": 3.0,
+      "certifications": NaN,
+      "renewable_energy_pct": 5.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.709377+00:00"
+    },
+    "Supplier K": {
+      "supplier": "Supplier K",
+      "country": "Italy",
+      "transport": "Road",
+      "distance_km": 1100.0,
+      "material": "Textiles",
+      "weight_tonnes": 2.2,
+      "certifications": [
+        "B Corp",
+        "ISO14001"
+      ],
+      "renewable_energy_pct": 65.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.710201+00:00"
+    },
+    "Supplier L": {
+      "supplier": "Supplier L",
+      "country": "South Korea",
+      "transport": "Sea",
+      "distance_km": 9800.0,
+      "material": "Electronics",
+      "weight_tonnes": 5.0,
+      "certifications": [
+        "ISO14001"
+      ],
+      "renewable_energy_pct": 50.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.711219+00:00"
+    },
+    "Supplier M": {
+      "supplier": "Supplier M",
+      "country": "Ethiopia",
+      "transport": "Air",
+      "distance_km": 6900.0,
+      "material": "Coffee Beans",
+      "weight_tonnes": 1.5,
+      "certifications": [
+        "Fairtrade"
+      ],
+      "renewable_energy_pct": 18.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.712157+00:00"
+    },
+    "Supplier N": {
+      "supplier": "Supplier N",
+      "country": "Canada",
+      "transport": "Rail",
+      "distance_km": 2100.0,
+      "material": "Steel",
+      "weight_tonnes": 15.0,
+      "certifications": [
+        "Renewable Energy Certified"
+      ],
+      "renewable_energy_pct": 80.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.713129+00:00"
+    },
+    "Supplier O": {
+      "supplier": "Supplier O",
+      "country": "Thailand",
+      "transport": "Road",
+      "distance_km": 2400.0,
+      "material": "Plastic",
+      "weight_tonnes": 4.5,
+      "certifications": NaN,
+      "renewable_energy_pct": 8.0,
+      "source_file": "supply_chain_test_data.csv",
+      "last_updated": "2026-06-27T08:25:01.714011+00:00"
+    }
+  },
+  "analyses": [
+    {
+      "id": "67d2a615",
+      "timestamp": "2026-06-27T08:31:32.684562+00:00",
+      "aggregate": {
+        "total_co2e_kg": 902365.12,
+        "supplier_count": 15,
+        "top_emitters": [
+          {
+            "supplier": "Supplier F",
+            "country": "China",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 8700.0,
+              "weight_tonnes": 6.5,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 904.8,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 6500.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 162500.0
+            },
+            "total_co2e_kg": 163404.8
+          },
+          {
+            "supplier": "Supplier L",
+            "country": "South Korea",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 9800.0,
+              "weight_tonnes": 5.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 784.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 5000.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 125000.0
+            },
+            "total_co2e_kg": 125784.0
+          },
+          {
+            "supplier": "Supplier D",
+            "country": "Brazil",
+            "material": "Cocoa",
+            "transport": {
+              "transport_mode": "air",
+              "distance_km": 9200.0,
+              "weight_tonnes": 4.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.602,
+              "transport_co2e_kg": 22153.6,
+              "relative_tier": "Very High"
+            },
+            "embedded": {
+              "material": "Cocoa",
+              "weight_kg": 4000.0,
+              "embedded_factor_kg_co2e_per_kg": 19.0,
+              "embedded_co2e_kg": 76000.0
+            },
+            "total_co2e_kg": 98153.6
+          },
+          {
+            "supplier": "Supplier B",
+            "country": "Vietnam",
+            "material": "Textiles",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 11000.0,
+              "weight_tonnes": 8.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 1408.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Textiles",
+              "weight_kg": 8000.0,
+              "embedded_factor_kg_co2e_per_kg": 10.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 81408.0
+          },
+          {
+            "supplier": "Supplier C",
+            "country": "Mexico",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "road",
+              "distance_km": 1800.0,
+              "weight_tonnes": 3.2,
+              "emission_factor_kg_co2e_per_tonne_km": 0.096,
+              "transport_co2e_kg": 552.96,
+              "relative_tier": "Medium"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 3200.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 80552.96
+          }
+        ],
+        "emissions_by_transport_mode": {
+          "air": 253814.04,
+          "sea": 448147.2,
+          "road": 137360.08,
+          "rail": 63043.8
+        }
+      },
+      "scored_count": 15,
+      "recommendation_count": 9
+    },
+    {
+      "id": "bd66549f",
+      "timestamp": "2026-07-01T08:43:04.811942+00:00",
+      "aggregate": {
+        "total_co2e_kg": 902365.12,
+        "supplier_count": 15,
+        "top_emitters": [
+          {
+            "supplier": "Supplier F",
+            "country": "China",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 8700.0,
+              "weight_tonnes": 6.5,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 904.8,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 6500.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 162500.0
+            },
+            "total_co2e_kg": 163404.8
+          },
+          {
+            "supplier": "Supplier L",
+            "country": "South Korea",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 9800.0,
+              "weight_tonnes": 5.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 784.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 5000.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 125000.0
+            },
+            "total_co2e_kg": 125784.0
+          },
+          {
+            "supplier": "Supplier D",
+            "country": "Brazil",
+            "material": "Cocoa",
+            "transport": {
+              "transport_mode": "air",
+              "distance_km": 9200.0,
+              "weight_tonnes": 4.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.602,
+              "transport_co2e_kg": 22153.6,
+              "relative_tier": "Very High"
+            },
+            "embedded": {
+              "material": "Cocoa",
+              "weight_kg": 4000.0,
+              "embedded_factor_kg_co2e_per_kg": 19.0,
+              "embedded_co2e_kg": 76000.0
+            },
+            "total_co2e_kg": 98153.6
+          },
+          {
+            "supplier": "Supplier B",
+            "country": "Vietnam",
+            "material": "Textiles",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 11000.0,
+              "weight_tonnes": 8.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 1408.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Textiles",
+              "weight_kg": 8000.0,
+              "embedded_factor_kg_co2e_per_kg": 10.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 81408.0
+          },
+          {
+            "supplier": "Supplier C",
+            "country": "Mexico",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "road",
+              "distance_km": 1800.0,
+              "weight_tonnes": 3.2,
+              "emission_factor_kg_co2e_per_tonne_km": 0.096,
+              "transport_co2e_kg": 552.96,
+              "relative_tier": "Medium"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 3200.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 80552.96
+          }
+        ],
+        "emissions_by_transport_mode": {
+          "air": 253814.04,
+          "sea": 448147.2,
+          "road": 137360.08,
+          "rail": 63043.8
+        }
+      },
+      "scored_count": 15,
+      "recommendation_count": 9
+    },
+    {
+      "id": "b9c0cdea",
+      "timestamp": "2026-07-01T08:48:13.971115+00:00",
+      "aggregate": {
+        "total_co2e_kg": 902365.12,
+        "supplier_count": 15,
+        "top_emitters": [
+          {
+            "supplier": "Supplier F",
+            "country": "China",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 8700.0,
+              "weight_tonnes": 6.5,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 904.8,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 6500.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 162500.0
+            },
+            "total_co2e_kg": 163404.8
+          },
+          {
+            "supplier": "Supplier L",
+            "country": "South Korea",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 9800.0,
+              "weight_tonnes": 5.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 784.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 5000.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 125000.0
+            },
+            "total_co2e_kg": 125784.0
+          },
+          {
+            "supplier": "Supplier D",
+            "country": "Brazil",
+            "material": "Cocoa",
+            "transport": {
+              "transport_mode": "air",
+              "distance_km": 9200.0,
+              "weight_tonnes": 4.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.602,
+              "transport_co2e_kg": 22153.6,
+              "relative_tier": "Very High"
+            },
+            "embedded": {
+              "material": "Cocoa",
+              "weight_kg": 4000.0,
+              "embedded_factor_kg_co2e_per_kg": 19.0,
+              "embedded_co2e_kg": 76000.0
+            },
+            "total_co2e_kg": 98153.6
+          },
+          {
+            "supplier": "Supplier B",
+            "country": "Vietnam",
+            "material": "Textiles",
+            "transport": {
+              "transport_mode": "sea",
+              "distance_km": 11000.0,
+              "weight_tonnes": 8.0,
+              "emission_factor_kg_co2e_per_tonne_km": 0.016,
+              "transport_co2e_kg": 1408.0,
+              "relative_tier": "Low"
+            },
+            "embedded": {
+              "material": "Textiles",
+              "weight_kg": 8000.0,
+              "embedded_factor_kg_co2e_per_kg": 10.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 81408.0
+          },
+          {
+            "supplier": "Supplier C",
+            "country": "Mexico",
+            "material": "Electronics",
+            "transport": {
+              "transport_mode": "road",
+              "distance_km": 1800.0,
+              "weight_tonnes": 3.2,
+              "emission_factor_kg_co2e_per_tonne_km": 0.096,
+              "transport_co2e_kg": 552.96,
+              "relative_tier": "Medium"
+            },
+            "embedded": {
+              "material": "Electronics",
+              "weight_kg": 3200.0,
+              "embedded_factor_kg_co2e_per_kg": 25.0,
+              "embedded_co2e_kg": 80000.0
+            },
+            "total_co2e_kg": 80552.96
+          }
+        ],
+        "emissions_by_transport_mode": {
+          "air": 253814.04,
+          "sea": 448147.2,
+          "road": 137360.08,
+          "rail": 63043.8
+        }
+      },
+      "scored_count": 15,
+      "recommendation_count": 9
+    }
+  ],
+  "recommendations": [
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace air freight with road freight for Supplier D",
+      "type": "transport_switch",
+      "co2e_savings_kg": 18620.8
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace air freight with road freight for Supplier J",
+      "type": "transport_switch",
+      "co2e_savings_kg": 12295.8
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace air freight with road freight for Supplier A",
+      "type": "transport_switch",
+      "co2e_savings_kg": 8222.5
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace air freight with road freight for Supplier H",
+      "type": "transport_switch",
+      "co2e_savings_kg": 6739.92
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace air freight with road freight for Supplier M",
+      "type": "transport_switch",
+      "co2e_savings_kg": 5237.1
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace road freight with rail freight for Supplier O",
+      "type": "transport_switch",
+      "co2e_savings_kg": 799.2
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace road freight with rail freight for Supplier C",
+      "type": "transport_switch",
+      "co2e_savings_kg": 426.24
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace road freight with rail freight for Supplier G",
+      "type": "transport_switch",
+      "co2e_savings_kg": 222.0
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace road freight with rail freight for Supplier K",
+      "type": "transport_switch",
+      "co2e_savings_kg": 179.08
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace Supplier L with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 62892.0
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace Supplier F with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 81702.4
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Replace Supplier I with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 36526.24
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Move sourcing for Supplier B closer to manufacturing (regional supplier)",
+      "type": "regional_sourcing",
+      "co2e_savings_kg": 1348.0
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Move sourcing for Supplier N closer to manufacturing (regional supplier)",
+      "type": "regional_sourcing",
+      "co2e_savings_kg": 580.5
+    },
+    {
+      "timestamp": "2026-06-28T09:16:16.484834+00:00",
+      "title": "Move sourcing for Supplier E closer to manufacturing (regional supplier)",
+      "type": "regional_sourcing",
+      "co2e_savings_kg": 160.8
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace air freight with sea freight for Supplier D",
+      "type": "transport_switch",
+      "co2e_savings_kg": 21564.8
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace air freight with sea freight for Supplier J",
+      "type": "transport_switch",
+      "co2e_savings_kg": 14239.8
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace air freight with sea freight for Supplier A",
+      "type": "transport_switch",
+      "co2e_savings_kg": 9522.5
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace air freight with sea freight for Supplier H",
+      "type": "transport_switch",
+      "co2e_savings_kg": 7805.52
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace air freight with sea freight for Supplier M",
+      "type": "transport_switch",
+      "co2e_savings_kg": 6065.1
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace road freight with rail freight for Supplier O",
+      "type": "transport_switch",
+      "co2e_savings_kg": 799.2
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace road freight with rail freight for Supplier C",
+      "type": "transport_switch",
+      "co2e_savings_kg": 426.24
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace road freight with rail freight for Supplier G",
+      "type": "transport_switch",
+      "co2e_savings_kg": 222.0
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace road freight with rail freight for Supplier K",
+      "type": "transport_switch",
+      "co2e_savings_kg": 179.08
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace Supplier L with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 62892.0
+    },
+    {
+      "timestamp": "2026-07-01T08:22:09.443813+00:00",
+      "title": "Replace Supplier F with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 81702.4
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace air freight with sea freight for Supplier D",
+      "type": "transport_switch",
+      "co2e_savings_kg": 21564.8
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace air freight with sea freight for Supplier J",
+      "type": "transport_switch",
+      "co2e_savings_kg": 14239.8
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace air freight with sea freight for Supplier A",
+      "type": "transport_switch",
+      "co2e_savings_kg": 9522.5
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace air freight with sea freight for Supplier H",
+      "type": "transport_switch",
+      "co2e_savings_kg": 7805.52
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace air freight with sea freight for Supplier M",
+      "type": "transport_switch",
+      "co2e_savings_kg": 6065.1
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace road freight with sea freight for Supplier O",
+      "type": "transport_switch",
+      "co2e_savings_kg": 864.0
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace road freight with sea freight for Supplier C",
+      "type": "transport_switch",
+      "co2e_savings_kg": 460.8
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace road freight with sea freight for Supplier G",
+      "type": "transport_switch",
+      "co2e_savings_kg": 240.0
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace road freight with sea freight for Supplier K",
+      "type": "transport_switch",
+      "co2e_savings_kg": 193.6
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace rail freight with sea freight for Supplier N",
+      "type": "transport_switch",
+      "co2e_savings_kg": 189.0
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace rail freight with sea freight for Supplier E",
+      "type": "transport_switch",
+      "co2e_savings_kg": 68.4
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace Supplier L with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 62892.0
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Replace Supplier F with a higher-sustainability-score regional supplier",
+      "type": "supplier_replacement",
+      "co2e_savings_kg": 81702.4
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Move sourcing for Supplier B closer to manufacturing (regional supplier)",
+      "type": "regional_sourcing",
+      "co2e_savings_kg": 1348.0
+    },
+    {
+      "timestamp": "2026-07-01T08:49:34.753267+00:00",
+      "title": "Move sourcing for Supplier I closer to manufacturing (regional supplier)",
+      "type": "regional_sourcing",
+      "co2e_savings_kg": 1479.15
+    }
+  ],
+  "chat_history": [
+    {
+      "role": "user",
+      "content": "What happens if we switch from air to sea freight?",
+      "timestamp": "2026-06-27T08:30:51.514087+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Switching from air to sea freight for applicable shipments would result in significant CO2e emission reductions.\n\nBased on the provided recommendations:\n*   **Total Potential Savings:** If all recommended switches from air to sea freight are implemented, a total of **59,197.72 kg CO2e** could be saved.\n*   **Percentage Reduction:** For each individual switch, this represents an estimated **97.3% reduction** in transport-related emissions.\n*   **Affected Suppliers:** This applies to shipments from Supplier D, Supplier J, Supplier A, Supplier H, and Supplier M. For example, switching Supplier D's cocoa shipment from air to sea freight alone would save 21,564.8 kg CO2e.\n*   **Trade-offs:** The primary trade-off for these switches is a **significant increase in lead times**, which may necessitate adjustments to inventory management.\n\nThis substantial reduction is due to sea freight having a much lower emission factor per tonne-km compared to air freight.",
+      "timestamp": "2026-06-27T08:30:51.516535+00:00"
+    },
+    {
+      "role": "user",
+      "content": "What if Supplier A is replaced by Supplier C",
+      "timestamp": "2026-07-01T08:50:29.127989+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Replacing Supplier A with Supplier C would reduce your total supply chain emissions from 902365.12 kg to 893014.62 kg, representing a 1.0% decrease. This improvement is primarily driven by shifting from air transport over 6500.0 km with Supplier A to more efficient road transport over 1800.0 km with Supplier C. This change also brings significant benefits, including an 85.8% reduction in cost and a decrease in lead time by 0.7 days, from 3.0 to 2.3 days. We assign this scenario a **Conditional** recommendation, as it offers substantial cost and lead time improvements alongside a modest emissions reduction, warranting further evaluation against your strategic priorities.",
+      "timestamp": "2026-07-01T08:50:29.131075+00:00"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "aad18892",
+      "timestamp": "2026-06-29T08:24:40.085901+00:00",
+      "scenario_type": "route_optimization",
+      "raw_request": null,
+      "current_emissions_kg": 902365.12,
+      "scenario_emissions_kg": 902345.06,
+      "pct_difference": -0.0,
+      "recommendation": "Not recommended"
+    },
+    {
+      "id": "396f5362",
+      "timestamp": "2026-06-29T08:25:18.157791+00:00",
+      "scenario_type": "warehouse_relocation",
+      "raw_request": null,
+      "current_emissions_kg": 902365.12,
+      "scenario_emissions_kg": 892654.62,
+      "pct_difference": -1.1,
+      "recommendation": "Conditional"
+    },
+    {
+      "id": "e2762df4",
+      "timestamp": "2026-07-01T08:22:33.814981+00:00",
+      "scenario_type": "regional_sourcing",
+      "raw_request": null,
+      "current_emissions_kg": 902365.12,
+      "scenario_emissions_kg": 834477.75,
+      "pct_difference": -7.5,
+      "recommendation": "Recommended"
+    },
+    {
+      "id": "fe055362",
+      "timestamp": "2026-07-01T08:50:29.135537+00:00",
+      "scenario_type": "supplier_replacement",
+      "raw_request": "What if Supplier A is replaced by Supplier C",
+      "current_emissions_kg": 902365.12,
+      "scenario_emissions_kg": 893014.62,
+      "pct_difference": -1.0,
+      "recommendation": "Conditional"
+    },
+    {
+      "id": "eef8dc45",
+      "timestamp": "2026-07-01T08:51:11.012231+00:00",
+      "scenario_type": "supplier_replacement",
+      "raw_request": "What if Supplier A is replaced by Supplier C",
+      "current_emissions_kg": 902365.12,
+      "scenario_emissions_kg": 893014.62,
+      "pct_difference": -1.0,
+      "recommendation": "Conditional"
+    }
+  ]
+}

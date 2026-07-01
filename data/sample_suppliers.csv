@@ -1,0 +1,9 @@
+supplier,country,transport,distance_km,material,weight_tonnes,certifications,renewable_energy_pct
+Supplier A,India,Air,6500,Coffee Beans,2.5,Fairtrade,30
+Supplier B,Vietnam,Sea,11000,Textiles,8,ISO14001;Organic,55
+Supplier C,Mexico,Road,1800,Electronics,3.2,,10
+Supplier D,Brazil,Air,9200,Cocoa,4.0,Rainforest Alliance,20
+Supplier E,Germany,Rail,950,Steel,12.0,ISO14001,70
+Supplier F,China,Sea,8700,Electronics,6.5,B Corp,40
+Supplier G,USA,Road,600,Plastic,5.0,,15
+Supplier H,Kenya,Air,7400,Coffee Beans,1.8,Fairtrade;Organic,25
